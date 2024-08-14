@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio Website" />
+    <meta name="author" content="Sumedha Pandravada" />
+    <meta
+      name="keywords"
+      content="Sumedha Pandravada"
+    />
+    <title>Sumedha Pandravada</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <nav>
+        <div class="site-name">Sumedha Pandravada</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+    <div id="home">
+      <div class="header">
+        <h1>
+          <span class="site-title">Sumedha Pandravada</span>
+          <span class="site-description">Final Year BTech Student • Full Stack Intern @ Fanztar</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/sumedha-pandravada-558736261/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/sumedha0108">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:sumedha.pandravada@gmail.com" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div id="resume">
+            <a href="https://drive.google.com/file/d/1Xni3-aeNzszVNan4ZsF8cigAaCmBpZs5/view?usp=drive_link" class="resume-button" target="_blank" aria-label="Download Resume">Resume</a>
+        </div>
+          
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="user-details">
+        <h1>About Me</h1>
+        <picture>
+          <source
+            srcset="./assets/img/my_image.PNG"
+            alt="My Image"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+           Hi. I am Sumedha Pandravada, currently pursuing 4th year Computer Science Engineering at Mahindra University. I'm a passionate software developer with a strong background in Python, Java, and AI/ML technologies. 
+           I am interested in exploring the fields of Software
+          Engineering, Full Stack Web Developemnt, Data Science, and Machine Learning, and I am open to opportunities for the same.
+        </p>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill-box">
+            <h3>Languages</h3>
+            <div class="icons">
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/python.svg" alt="Python" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/c.svg" alt="C" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg" alt="C++" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/java.svg" alt="Java" />
+            </div>
+          </div>
+          <div class="skill-box">
+            <h3>Web Development</h3>
+            <div class="icons">
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/html5.svg" alt="HTML" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg" alt="CSS" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg" alt="JavaScript" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg" alt="React" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/vue-dot-js.svg" alt="Vue.js" />
+            </div>
+          </div>
+          <div class="skill-box">
+            <h3>Databases</h3>
+            <div class="icons">
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/mongodb.svg" alt="MongoDB" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/mysql.svg" alt="SQL" />
+            </div>
+          </div>
+          <div class="skill-box">
+            <h3>Tools & Technologies</h3>
+            <div class="icons">
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/docker.svg" alt="Docker" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/git.svg" alt="Git" />
+              <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" alt="GitHub" />
+            </div>
+          </div>
+        </div>
+        </div>
+
+      
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Projects</h1>
+      </div>
+      <div class="projects-container">
+      <div class="project">
+        <div class="contents" style="text-align: center">
+          <h3>Ecommerce Website</h3>
+          <p style="text-align: justify">
+            I developed a secure e-commerce website using Flask, HTML, and CSS.
+            It contains user authentication with password hashing resulting in an
+            increase in security.
+            I used SQLAlchemy for database management, and integrated payment
+            options including cash and UPI QR code.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/sumedha0108/ecommerce-website.git">Github Link</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="contents-right" style="text-align: center">
+          <h3>Cash Flow Minimizer</h3>
+          <p style="text-align: justify">
+            I created a React-based web application that helps users split expenses and
+            minimize cash flow between participants. The application allows users to add people, input expenses, and calculate the minimum cash flow required to settle all debts between the participants.
+            Technologies used - React: For building the user interface.
+            Material-UI (MUI): For styling and layout components.
+            JavaScript: For application logic.
+            CSS: For custom styles.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/sumedha0108/minimum-cash-flow.git"
+            >Github Link</a
+          >
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="contents" style="text-align: center">
+          <h3>Classic Snake Game</h3>
+          <p style="text-align: justify">
+           I developed a classic Snake game using Python, leveraging Object-Oriented
+        Programming (OOP) principles.
+        Utilized turtle to create a modular and organized codebase and implemented
+        inheritance to create subclasses for the Snake segments and Scoreboard,
+        enhancing code reusability and maintainability.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/sumedha0108/snake-game.git">
+            Github Link
+          </a>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="contents-right" style="text-align: center">
+          <h3>Spotify Playlist Maker using Billboard Hot 100</h3>
+          <p style="text-align: justify">
+            I developed a playlist creation program based on Billboard Hot 100 songs using the Spotipy library and Spotify API in Python-Flask.
+            Implemented features such as web scraping for songs from the billboard
+            website, authentication using client ID and secret.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/sumedha0108/Billboard-100-spotify-playlist-maker.git">
+            Github Link
+          </a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="user-details">
+            <h1>Education</h1>
+          </div>
+
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                    <h3>Niraj Public School, Hyderabad</h3>
+                    <p style="font-size: 18px; color:var(--main-color)">Class 10th</p>
+                    <p style="font-size: 17px;"><i>96.5%</i></p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>Fiitjee Junior College, Hyderabad</h3>
+                    <p style="font-size: 18px; color:var(--main-color)">Class 12th</p>
+                    <p style="font-size: 17px;"><i>97.2%</i></p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021 - 2025</div>
+                <div class="timeline-content">
+                    <h3>Mahindra University, Hyderabad</h3>
+                    <p style="font-size: 18px; color:var(--main-color)">B.Tech Computer Science</p>
+                    <p style="font-size: 17px;"><i>9.05</i></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+  
+
+    <footer class="footer">
+      <p>&copy; Sumedha Pandravada, 2024</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
